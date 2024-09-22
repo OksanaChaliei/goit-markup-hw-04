@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+/* region Header */
+.header-menu a {
+    text-decoration: none;
+}
+
+.header-contacts a:hover {
+color: #404BBF;
+}
+.header-contacts a:focus {
+    color: #404BBF;
+    text-decoration: underline;
+}
+.header-menu {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02px; 
+}
+.header-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+}
+/* endregion */
+
+/* region Hero */
+.hero-section {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+.main-button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+.main-button:hover {
+    background-color: #404BBF;
+}
+/* endregion */
+
+/* region Values */
+
+.values-caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.values-desc {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* endregion */
+
+/* region Team */
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-caption {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.4px;
+
+}
+
+.team-desc {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* endregion */
+
+/* region Portfolio */
+
+.portfolio-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+}
+
+.portfolio-caption {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-desc {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+}
+/* endregion */
+
+/* region Footer */
+footer {
+    background-color: #2E2F42;
+}
+.footer-desc {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+/* endregion */
