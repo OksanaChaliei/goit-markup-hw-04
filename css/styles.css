@@ -271,6 +271,8 @@ fill: currentColor;
     gap: 24px;
  }
  .socials-team {
+    display: flex;
+    justify-content: center;
     gap:24px;
 
  }
