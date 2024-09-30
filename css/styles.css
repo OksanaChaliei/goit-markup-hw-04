@@ -309,10 +309,13 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transition-property: box-shadow;
 }
-.portfolio-item:hover .overlay-text{
+.portfolio-item:hover {
  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 2px 0 rgba(46, 47, 66, 0.08);
+   }
+.portfolio-item:hover .overlay-text {
+     transform: translateY(0);
    }
 .portfolio-info {
 padding: 32px 16px;
@@ -357,7 +360,8 @@ border-top: none;
   position: relative;
   overflow: hidden;
 }
-.overlay {
+
+.overlay-text {
     position: absolute;
     top: 0;
     left: 0;
@@ -376,17 +380,6 @@ border-top: none;
  transform: translateY(0);   
 }
 
-.overlay-text {
-color: #F4F4FD;
-position: absolute;
-top: 0;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-padding: 40px 32px;
-height: 100%;
-width: 100%;
-}
 
 /* endregion */
 
@@ -431,7 +424,7 @@ width: 100%;
     justify-content: center;
     padding: 0;
     margin: 0;
-    gap: 24px;
+    gap: 16px;
 }
 
 .socials-list-team {
@@ -452,7 +445,7 @@ width: 100%;
 
 .social-icons:hover,
 .social-icons:focus {
-    background-color: #404bbf;;
+    background-color: #31d0aa;
 }
 
 .icon {
