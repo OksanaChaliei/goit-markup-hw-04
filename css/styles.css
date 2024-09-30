@@ -411,7 +411,7 @@ border-top: none;
 
 .footer-container {
   display: flex;
-  align-items: baseline,
+  align-items: baseline;
 }
 
 .footer-logo {
