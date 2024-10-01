@@ -149,6 +149,7 @@ margin-left: auto;
   background-repeat: no-repeat;
   max-width: 1440px;
   height: auto;
+  margin: 0 auto;
 }
 .hero-title {
     max-width: 496px;
@@ -405,7 +406,7 @@ border-top: none;
 /* region Footer */
 .footer {
     background-color: #2E2F42;
-    padding: 40px 0;
+    padding: 100px 0;
     color: var(--white-color, #FFFFFF);
 }
 
